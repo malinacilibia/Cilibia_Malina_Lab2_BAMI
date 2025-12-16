@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cilibia_Malina_Lab2", "Cilibia_Malina_Lab2\Cilibia_Malina_Lab2.csproj", "{478D985C-C524-451A-8B04-CB1541998376}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{478D985C-C524-451A-8B04-CB1541998376}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{478D985C-C524-451A-8B04-CB1541998376}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{478D985C-C524-451A-8B04-CB1541998376}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{478D985C-C524-451A-8B04-CB1541998376}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54BFFF2F-538F-4EA5-B67F-4CF43C462571}
+	EndGlobalSection
+EndGlobal
