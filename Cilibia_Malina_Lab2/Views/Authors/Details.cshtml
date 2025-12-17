@@ -24,6 +24,34 @@
         </dd>
     </dl>
 </div>
+
+
+<div>
+    <h4>Books by this Author</h4>
+    <hr />
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Books)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Title)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Price)
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
 <div>
     <a asp-action="Edit" asp-route-id="@Model?.ID">Edit</a> |
     <a asp-action="Index">Back to List</a>

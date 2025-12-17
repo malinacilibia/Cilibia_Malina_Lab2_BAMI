@@ -18,6 +18,7 @@ namespace Cilibia_Malina_Lab2Context.Data
         public DbSet<Cilibia_Malina_Lab2Context.Models.Customer> Customer { get; set; } = default!;
         public DbSet<Cilibia_Malina_Lab2Context.Models.Genre> Genre { get; set; } = default!;
         public DbSet<Cilibia_Malina_Lab2Context.Models.Author> Author { get; set; }
+        public DbSet<Cilibia_Malina_Lab2Context.Models.Order> Order { get; set; } = default!;
     }
 }
 
